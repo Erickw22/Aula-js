@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+
+    <h1>Cadastro de um Novo Paciente</h1>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="cpf">CPF:</label>
+        <input type="text" name="cpf" id="cpf" required>
+
+        <label for="data_nsc">Data de nascimento:</label>
+        <input type="date" name="data_nsc" id="data_nsc" required>
+
+        <label for="phone">Telefone:</label>
+        <input type="text" name="phone" id="phone" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
