@@ -8,25 +8,30 @@
     
 </head>
 <body>
-
-    <h1>Cadastro de um Novo Paciente</h1>
-    <form>
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
+    <h1>Cadastro de Paciente</h1>
+    <form id="formCadastrarPaciente">
+        <label for="nome" >Nome:</label>
+        <input type="text" name="nome" id="nome" >
+        <span id="nomeErro" class="nomeErro"></span>
 
         <label for="cpf">CPF:</label>
-        <input type="text" name="cpf" id="cpf" required>
+        <input type="text" name="cpf" id="cpf" >
+        <span id="cpfErro" class="cpfErro"></span>
 
-        <label for="data_nsc">Data de nascimento:</label>
-        <input type="date" name="data_nsc" id="data_nsc" required>
+        <label for="dataNsc">Data de nascimento:</label>
+        <input type="date" name="datansc" id="dataNsc" >
+        <span id="dataNscErro" class="dataNscErro"></span>
 
-        <label for="phone">Telefone:</label>
-        <input type="text" name="phone" id="phone" required>
+        <label for="telefone">Telefone:</label>
+        <input type="text" name="telefone" id="telefone" >
+        <span id="telefoneErro" class="telefoneErro"></span>
 
         <label for="email">E-mail:</label>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" >
+        <span id="emailErro" class="emailErro"></span>
 
         <button type="submit">Cadastrar</button>
     </form>
+    <script src="./script.js"></script>
 </body>
 </html>

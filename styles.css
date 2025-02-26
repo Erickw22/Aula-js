@@ -44,3 +44,7 @@ button {
 button:hover {
     background: darkblue;
 }
+.nomeErro, .cpfErro, .dataNscErro, .telefoneErro, .emailErro {
+    color: red;
+    font-size: 12px;
+}
