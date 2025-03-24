@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-const mongoURI = 'mongodb+srv://ErickDb:Gjewi200.3@cadastro.xlkrb.mongodb.net/escolaDB?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://crosfyrenonear:Gjewi200.2@alunos.ja4xu.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
