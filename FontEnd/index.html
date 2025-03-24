@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form id="formCadastrarAluno">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required minlength="3" maxlength="100">
+    
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+    
+        <label for="curso">Curso:</label>
+        <input type="text" id="curso" required>
+    
+        <label for="periodo">Período:</label>
+        <input type="text" id="periodo" required>
+    
+        <label for="turma">Turma:</label>
+        <input type="text" id="turma" required>
+    
+        <label for="turno">Turno:</label>
+        <input type="text" id="turno" required>
+    
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" required>
+    
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" required pattern="\d{10,11}" title="Telefone deve ter 10 ou 11 dígitos">
+    
+        <button type="submit">Cadastrar</button>
+        <button type="button" id="btnLista">Lista</button>
+
+    </form>
+    
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
